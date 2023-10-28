@@ -90,9 +90,9 @@ nav ul li:active{
   }
 }
 @media screen and (max-width: 800px){
-  html, body{
+  /* html, body{
     font-size: 35%;
-  }
+  } */
   .home{
     flex-direction: column;
     gap: 5rem;
