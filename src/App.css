@@ -86,15 +86,15 @@ nav ul li:hover{
 }
 @media screen and (max-width: 800px){
   html, body{
-    font-size: 30%;
+    font-size: 35%;
   }
   .home{
     flex-direction: column;
     gap: 5rem;
   }
+  nav ul{
+    display: none;
+  }
 }
 @media screen and (max-width: 515px){
-    nav ul{
-        display: none;
-    }
 }
