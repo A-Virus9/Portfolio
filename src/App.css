@@ -1,53 +1,75 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 nav {
   height: 5rem;
   border-radius: 3rem;
-  background: linear-gradient(0.25turn, #292929 40%, #591f74 100%);
+  background: linear-gradient(0.25turn, #1d1d1d 40%, #591f74 100%);
   padding: 0 3rem;
-  border: 0.2rem solid white;
+  /* border: 0.2rem solid white; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 5rem;
   font-weight: 800;
 }
-.name{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
-nav img{
-    height: 3rem;
+nav img {
+  height: 3rem;
 }
-nav span{
-    font-size: 2rem;
+nav span {
+  font-size: 2rem;
 }
-nav ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 3rem;
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
 }
-nav ul li{
-    list-style: none;
-    font-size: 2rem;
+nav ul li {
+  list-style: none;
+  font-size: 2rem;
 }
-.home{
-    width: 100%;
-    border: 0.2rem solid white;
-    padding: 5rem 3rem;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+nav ul li:hover{
+  color: rgb(130, 223, 252);
+  scale: 1.1;
 }
-.home img{
-    border: 0.2rem solid white;
-    border-radius: 50%;
+.home {
+  width: 100%;
+  /* border: 0.2rem solid white; */
+  padding: 10rem 5rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.home img {
+  border: 0.2rem solid white;
+  border-radius: 50%;
+}
+.home-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  height: 15rem;
+  width: 30%;
+  /* border: 0.2rem solid white; */
+}
+.home-hi {
+  font-size: 4rem;
+  color: rgb(130, 223, 252);
+}
+.home-brief {
+  font-size: 2rem;
+  margin-left: 0.5rem;
 }
