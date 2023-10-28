@@ -1,0 +1,20 @@
+.hamburger{
+  display: none;
+  width: 2.5rem;
+  fill: white;
+}
+.hamburger:hover{
+  fill: rgb(130, 223, 252);
+  scale: 1.05;
+}
+.hamburger:active{
+  scale: 1;
+}
+@media screen and (max-width: 500px){
+  nav ul{
+    display: none;
+  }
+  .hamburger{
+    display: inline;
+  }
+}

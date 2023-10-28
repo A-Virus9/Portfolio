@@ -47,9 +47,6 @@ nav ul li:active{
     cursor: pointer;
     scale: 1;
 }
-.hamburger{
-  display: none;
-}
 .home {
   width: 100%;
   /* border: 0.2rem solid white; */
@@ -99,13 +96,5 @@ nav ul li:active{
   .home{
     flex-direction: column;
     gap: 5rem;
-  }
-}
-@media screen and (max-width: 500px){
-  nav ul{
-    display: none;
-  }
-  .hamburger{
-    display: inline;
   }
 }
