@@ -5,7 +5,7 @@ import "./Phone.css";
 function Home() {
   return (
     <div className="home">
-      <img src="Akshat.png" alt="Error" />
+      <img src="Akshat.png" alt="Poster" />
       <div className="home-info">
         <div className="home-hi">Hi! I am Akshat Vyas...</div>
         <div className="home-brief">
@@ -29,7 +29,7 @@ export default function App() {
     return (
       <nav>
         <div className="name">
-          <img src="Square.svg" alt="" />
+          <img src="Square.svg" alt="Icon" />
           <span>AKSHAT VYAS</span>
         </div>
         <ul>
