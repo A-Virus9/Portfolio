@@ -55,6 +55,7 @@ nav ul li:hover{
 .home img {
   border: 0.2rem solid white;
   border-radius: 50%;
+  width: 60rem;
 }
 .home-info {
   display: flex;
@@ -62,7 +63,7 @@ nav ul li:hover{
   align-items: start;
   justify-content: space-between;
   height: 15rem;
-  width: 30%;
+  width: 50rem;
   /* border: 0.2rem solid white; */
 }
 .home-hi {
@@ -72,4 +73,25 @@ nav ul li:hover{
 .home-brief {
   font-size: 2rem;
   margin-left: 0.5rem;
+}
+@media screen and (max-width: 1250px){
+  html, body{
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 1000px){
+  html, body{
+    font-size: 40%;
+  }
+}
+@media screen and (max-width: 800px){
+  html, body{
+    font-size: 30%;
+  }
+  .home{
+    flex-direction: column;
+    gap: 5rem;
+  }
+}
+@media screen and (max-width: 515px){
 }
