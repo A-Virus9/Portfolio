@@ -97,4 +97,7 @@ nav ul li:active{
     flex-direction: column;
     gap: 5rem;
   }
+  .home img{
+    width: 50rem;
+  }
 }
