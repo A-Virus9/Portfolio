@@ -40,7 +40,15 @@ nav ul li {
 }
 nav ul li:hover{
   color: rgb(130, 223, 252);
-  scale: 1.1;
+  scale: 1.05;
+  cursor: pointer;
+}
+nav ul li:active{
+    cursor: pointer;
+    scale: 1;
+}
+.hamburger{
+  display: none;
 }
 .home {
   width: 100%;
@@ -92,9 +100,12 @@ nav ul li:hover{
     flex-direction: column;
     gap: 5rem;
   }
+}
+@media screen and (max-width: 500px){
   nav ul{
     display: none;
   }
-}
-@media screen and (max-width: 515px){
+  .hamburger{
+    display: inline;
+  }
 }
