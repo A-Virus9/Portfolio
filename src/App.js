@@ -23,7 +23,7 @@ export default function App() {
   const [ham, setHam] = useState(false);
 
   const handlePage = (e) => {
-    setPage((page) => page || e);
+    setPage((page) => page === e ? page : e);
   };
 
   const handleHam = () => {
@@ -48,7 +48,7 @@ export default function App() {
           <img src="Square.svg" alt="Icon" />
           <span>AKSHAT VYAS</span>
         </div>
-        {!ham && <List screen={"big"} />}
+        <List screen={"big"} />
         <div className="phone">
           <svg
             xmlns="http://www.w3.org/2000/svg"
