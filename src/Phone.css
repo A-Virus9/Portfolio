@@ -1,20 +1,47 @@
-.hamburger{
+:root{
+  --myBlue: rgb(130, 223, 252);
+}
+.phone{
   display: none;
+}
+.hamburger{
   width: 2.5rem;
   fill: white;
 }
 .hamburger:hover{
-  fill: rgb(130, 223, 252);
+  fill: var(--myBlue);
   scale: 1.05;
 }
 .hamburger:active{
   scale: 1;
 }
-@media screen and (max-width: 500px){
-  nav ul{
+.menu{
+  height: 30rem;
+  width: 20rem;
+  border: 0.1rem solid white;
+  background: #1d1d1d;
+  position: absolute;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  right: 2rem;
+  top: 7rem;
+}
+.smallMenu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  padding: 0 3rem;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 560px){
+  .bigMenu{
     display: none;
   }
-  .hamburger{
+  .phone{
     display: inline;
   }
 }
