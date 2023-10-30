@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import "./Phone.css";
+import profile from "./profile-pic.png"
 
 function Home() {
+
   return (
     <section className="home">
       <img src="Akshat.png" alt="Poster" />
@@ -13,6 +15,13 @@ function Home() {
           Kalinga Institute of Industrial Technology (KIIT) and I am always
           willing to learn new things.
         </div>
+        <a
+        href={profile}
+        download="Akshat-Vyas-Resume"
+        id="resumeA"
+        >
+          <button className="resume">Download Resume</button>
+        </a>
       </div>
     </section>
   );

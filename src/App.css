@@ -1,5 +1,5 @@
 :root{
-  --myBlue: rgb(130, 223, 252);
+  --myBlue: rgb(74, 213, 255);
 }
 .container {
   display: flex;
@@ -10,7 +10,7 @@
 nav {
   height: 5rem;
   border-radius: 3rem;
-  background: linear-gradient(0.25turn, #1d1d1d 40%, #591f74 100%);
+  background: linear-gradient(0.25turn, #591f74 1%, #1d1d1d 20%, #1d1d1d 60%, #591f74 100%);
   padding: 0 3rem;
   /* border: 0.2rem solid white; */
   display: flex;
@@ -74,7 +74,7 @@ nav span {
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
-  height: 15rem;
+  height: 20rem;
   width: 50rem;
   /* border: 0.2rem solid white; */
 }
@@ -85,6 +85,26 @@ nav span {
 .home-brief {
   font-size: 2rem;
   margin-left: 0.5rem;
+  margin-bottom: 2rem;
+}
+.resume{
+  border: none;
+  background: var(--myBlue);
+  border-radius: 0.5rem;
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  font-weight: 800;
+  width: 15rem;
+  height: 3rem;
+}
+.resume:hover{
+  scale: 1.02;
+}
+.resume:active{
+  scale: 1;
+}
+#resumeA{
+  text-decoration: none;
 }
 @media screen and (max-width: 1250px){
   html, body{
@@ -104,5 +124,8 @@ nav span {
   }
   .home img{
     width: 45rem;
+  }
+  #resumeA{
+    align-self: center;
   }
 }
