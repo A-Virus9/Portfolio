@@ -2,8 +2,6 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import "./Phone.css";
 
-
-
 function Home() {
   return (
     <section className="home">
@@ -22,6 +20,18 @@ function Home() {
 
 function Nav({page, setPage}) {
   const [ham, setHam] = useState(false);
+
+  function List({screen ,page, setPage}) {
+    const pages =["Home", "About", "Projects", "Contact Me"];
+  
+    return (
+      <ul className={`${screen}Menu list`}>
+        {pages.map((p) => (
+          <li className={page === p ? "activeTab" : ""} onClick={() => setPage(p)}>{p}</li>
+        ))}
+      </ul>
+    );
+  }
 
   return (
     <nav>
@@ -45,18 +55,6 @@ function Nav({page, setPage}) {
         )}
       </div>
     </nav>
-  );
-}
-
-function List({ screen ,page, setPage}) {
-  const pages =["Home", "About", "Contact", "Qualifications"];
-
-  return (
-    <ul className={`${screen}Menu list`}>
-      {pages.map((p) => (
-        <li className={page === p ? "activeTab" : ""} onClick={() => setPage(p)}>{p}</li>
-      ))}
-    </ul>
   );
 }
 
