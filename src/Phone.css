@@ -44,4 +44,10 @@
   .home-info{
     margin-bottom: 50rem;
   }
+  .resume{
+    width: 16rem;
+    height: 7rem;
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
 }
