@@ -1,4 +1,4 @@
-:root{
+:root {
   --myBlue: rgb(74, 213, 255);
 }
 .container {
@@ -6,17 +6,22 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 100vw;
+  width: 100%;
   box-sizing: border-box;
   padding: 1rem;
-  height: 100vh;
 }
 nav {
   height: 5rem;
   border-radius: 3rem;
   width: 100%;
   box-sizing: border-box;
-  background: linear-gradient(0.25turn, #591f74 1%, #1d1d1d 20%, #1d1d1d 60%, #591f74 100%);
+  background: linear-gradient(
+    0.25turn,
+    #591f74 1%,
+    #1d1d1d 20%,
+    #1d1d1d 60%,
+    #591f74 100%
+  );
   padding: 0 3rem;
   /* border: 0.2rem solid white; */
   display: flex;
@@ -24,6 +29,8 @@ nav {
   justify-content: space-between;
   gap: 5rem;
   font-weight: 800;
+  position: sticky;
+  top: 1rem;
 }
 .name {
   display: flex;
@@ -37,7 +44,7 @@ nav img {
 nav span {
   font-size: 2rem;
 }
-.bigMenu{
+.bigMenu {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -49,21 +56,21 @@ nav span {
   padding: 0.5rem 0;
   box-sizing: border-box;
 }
-.list li:hover{
+.list li:hover {
   color: var(--myBlue);
   scale: 1.05;
   cursor: pointer;
 }
-.list li:active{
+.list li:active {
   scale: 1;
 }
-.activeTab{
+.activeTab {
   color: var(--myBlue);
   border-bottom: 0.2rem solid var(--myBlue);
 }
 .home {
   width: 100%;
-  height: calc(100vh - 5rem);
+  height: calc(100vh - 7rem);
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -93,7 +100,7 @@ nav span {
   margin-left: 0.5rem;
   margin-bottom: 2rem;
 }
-.resume{
+.resume {
   border: none;
   background: var(--myBlue);
   border-radius: 0.5rem;
@@ -103,27 +110,34 @@ nav span {
   width: 15rem;
   height: 3rem;
 }
-.resume:hover{
+.resume:hover {
   scale: 1.02;
 }
-.resume:active{
+.resume:active {
   scale: 1;
 }
-#resumeA{
+#resumeA {
   text-decoration: none;
 }
-@media screen and (max-width: 1250px){
-  html, body{
+.contact {
+  font-size: 1.6rem;
+  /* padding: 10px; */
+}
+
+@media screen and (max-width: 1250px) {
+  html,
+  body {
     font-size: 50%;
   }
 }
-@media screen and (max-width: 1000px){
-  html, body{
+@media screen and (max-width: 1000px) {
+  html,
+  body {
     font-size: 40%;
   }
 }
-@media screen and (max-width: 800px){
-  #resumeA{
+@media screen and (max-width: 800px) {
+  #resumeA {
     align-self: center;
   }
 }
