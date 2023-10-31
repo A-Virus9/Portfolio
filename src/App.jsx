@@ -74,7 +74,7 @@ export default function App() {
   },[page])
 
   return (
-    <div className="Container">
+    <div className="container">
       <Nav page={page} setPage={setPage} />
       {page === "Home" && <Home />}
     </div>
