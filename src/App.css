@@ -123,9 +123,6 @@ nav span {
   }
 }
 @media screen and (max-width: 800px){
-  html, body{
-    font-size: 35%;
-  }
   #resumeA{
     align-self: center;
   }
