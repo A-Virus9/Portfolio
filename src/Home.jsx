@@ -1,4 +1,6 @@
-export default function Home({profile}) {
+import profile from "./Akshat-Vyas-Resume.pdf";
+
+export default function Home() {
     return (
       <section className="home">
         <img src="Akshat.png" alt="Poster" />
