@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import "./Contact.css"
+import "./Nav.css"
 import "./App.css";
 import "./Phone.css";
 import Home from "./Home"
@@ -19,7 +21,9 @@ export default function App() {
       {page === "Home" && <Home />}
       {page === "About"  && <About />}
       {page === "Projects" && <Projects />}
-      {page === "Contact Me" && <Contact />}
+      {page === "Contact Me" && 
+      <Contact />
+    }
     </div>
   );
 }

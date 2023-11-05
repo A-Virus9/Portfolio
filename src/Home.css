@@ -1,0 +1,52 @@
+.home {
+  height: calc(100vh - 7rem);
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.home img {
+  border: 0.2rem solid white;
+  border-radius: 50%;
+  width: 45rem;
+}
+.home-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  height: 20rem;
+  width: 50rem;
+  /* border: 0.2rem solid white; */
+}
+.home-hi {
+  font-size: 4rem;
+  color: var(--myBlue);
+}
+.home-brief {
+  font-size: 2rem;
+  margin-left: 0.5rem;
+  margin-bottom: 2rem;
+}
+.resume {
+  border: none;
+  background: var(--myBlue);
+  border-radius: 0.5rem;
+  color: white;
+  text-shadow: 0.2rem 0 0 black;
+  font-size: 1.3rem;
+  font-weight: 800;
+  width: 15rem;
+  height: 3rem;
+}
+.resume:hover {
+  scale: 1.02;
+}
+.resume:active {
+  scale: 1;
+}
+#resumeA {
+  text-decoration: none;
+}

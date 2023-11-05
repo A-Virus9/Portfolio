@@ -1,0 +1,56 @@
+nav {
+  height: 5rem;
+  border-radius: 3rem;
+  width: 100%;
+  box-sizing: border-box;
+  background: linear-gradient(
+    0.25turn,
+    #591f74 1%,
+    #1d1d1d 20%,
+    #1d1d1d 60%,
+    #591f74 100%
+  );
+  padding: 0 3rem;
+  margin: 0 0 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+  font-weight: 800;
+}
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+nav img {
+  height: 3rem;
+}
+nav span {
+  font-size: 2rem;
+}
+.bigMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.list li {
+  list-style: none;
+  font-size: 2rem;
+  padding: 0.5rem 0;
+  box-sizing: border-box;
+}
+.list li:hover {
+  color: var(--myBlue);
+  scale: 1.05;
+  cursor: pointer;
+}
+.list li:active {
+  scale: 1;
+}
+.activeTab {
+  color: var(--myBlue);
+  border-bottom: 0.2rem solid var(--myBlue);
+}

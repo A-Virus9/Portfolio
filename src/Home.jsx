@@ -1,9 +1,11 @@
-import profile from "./Akshat-Vyas-Resume.pdf";
+import profile from "./Data/Akshat-Vyas-Resume.pdf";
+import Akshat from "./Data/Akshat.png"
+import "./Home.css"
 
 export default function Home() {
     return (
       <section className="home">
-        <img src="Akshat.png" alt="Poster" />
+        <img src={Akshat} alt="Poster" />
         <div className="home-info">
           <div className="home-hi">Hi! I am Akshat Vyas...</div>
           <div className="home-brief">

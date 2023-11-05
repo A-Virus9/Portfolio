@@ -1,3 +1,6 @@
+:root {
+  --myBlue: rgb(74, 213, 255);
+}
 .phone{
   display: none;
 }
