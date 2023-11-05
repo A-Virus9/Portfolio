@@ -40,7 +40,7 @@ export default function Contact() {
           xmlns="http://www.w3.org/2000/svg"
           enable-background="new 0 0 141.7 141.7"
           viewBox="0 0 141.7 141.7"
-          className="contact-icons"
+          className="contact-icons gmail"
         >
           <path
             fill="#4285f4"

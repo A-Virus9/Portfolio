@@ -53,4 +53,8 @@
     font-size: 2rem;
     margin-top: 3rem;
   }
+  .gmail{
+    position: relative;
+    top: 2rem;
+  }
 }
