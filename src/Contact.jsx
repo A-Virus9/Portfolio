@@ -99,41 +99,6 @@ export default function Contact() {
           <span className="link-text">{platform.platform}</span>
         </a>
       ))}
-
-      {/* <div className="socialMedia">
-        <span className="social-platform">
-          ► Here are some links to my social media handles:-
-        </span>
-        <div className="social-links">
-          {platforms.map((platform) => (
-            <div className="link">
-              <a href={platform.link} target="_blank" rel="noreferrer">
-                <span>►</span>
-                <span className="link-text">
-                  {platform.icon}&nbsp;{platform.platform}
-                </span>
-              </a>
-            </div>
-          ))}
-        </div>
-      </div>
-      <div className="socialMedia">
-        <span className="social-platform">
-          ► Contact Info
-        </span>
-        <div className="social-links">
-          {contacts.map((contact) => (
-            <div className="link">
-              <a href={contact.link} target="_blank" rel="noreferrer">
-                <span>►</span>
-                <span className="link-text">
-                  {contact.icon}&nbsp;{contact.platform}
-                </span>
-              </a>
-            </div>
-          ))}
-        </div>
-      </div> */}
     </div>
   );
 }
