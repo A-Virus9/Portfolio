@@ -30,18 +30,18 @@ const projects = [
     github_link: "https://github.com/A-Virus9/Vanilla-Web/tree/main/LinkedIn%20clone"
   },
   {
-    name: "Portfolio",
-    description: "My portfolio website, you are on this website :)",
-    tech_stack: "React.Js CSS",
-    link: "https://github.com/A-Virus9/Portfolio",
-    github_link: "https://github.com/A-Virus9/Portfolio"
-  },
-  {
     name: "Nutrition Facts",
     description: "Nutrition label as seen in food packets cloned with CSS",
     tech_stack: "HTML CSS",
     link: "https://a-virus9.github.io/Vanilla-Web/Nutrition%20Facts/index.html",
     github_link: "https://github.com/A-Virus9/Vanilla-Web/tree/main/Nutrition%20Facts"
+  },
+  {
+    name: "Portfolio",
+    description: "My portfolio website, you are on this website :)",
+    tech_stack: "React.Js CSS",
+    link: "https://github.com/A-Virus9/Portfolio",
+    github_link: "https://github.com/A-Virus9/Portfolio"
   },
 ];
 

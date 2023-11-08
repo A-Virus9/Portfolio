@@ -16,11 +16,11 @@ export default function App() {
   return (
     <div className="container">
       <Nav page={page} setPage={setPage} />
-      {/* {page === "Home" && <Home />}
-      {page === "About"  && <About />} */}
-      {/* {page === "Projects" &&  */}
+      {page === "Home" && <Home />}
+      {page === "About"  && <About />}
+      {page === "Projects" && 
       <Projects />
-      {/* } */}
+      }
     </div>
   );
 }
