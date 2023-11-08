@@ -15,11 +15,10 @@
 .home-info {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   justify-content: space-between;
   height: 20rem;
   width: 50rem;
-  /* border: 0.2rem solid white; */
 }
 .home-hi {
   font-size: 4.5rem;
@@ -35,7 +34,7 @@
   background: var(--myBlue);
   border-radius: 0.5rem;
   color: white;
-  /* text-shadow: 0.15rem 0 0 black; */
+  text-shadow: 0.05rem 0 0 black;
   font-size: 1.5rem;
   font-weight: 800;
   width: 13rem;
@@ -49,13 +48,10 @@
 }
 #resumeA {
   text-decoration: none;
-  align-self: center;
 }
 .contact {
-  /* border: 2px solid white; */
   width: 100%;
   padding: 0 3rem;
-  /* padding: 5rem 1rem; */
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
@@ -66,18 +62,13 @@
   font-size: 2.5rem;
   display: flex;
   margin: 0 3rem;
-  /* margin: 3rem; */
   align-items: center;
   justify-content: center;
   text-decoration: none;
-}
-.link-arrow{
-  color: white;
-  font-size: 4rem
 }
 .link-text{
   color: var(--myBlue);
 }
 .contact-icons{
-  width: 4rem
+  width: 4rem;
 }
