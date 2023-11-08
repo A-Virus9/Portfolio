@@ -1,6 +1,10 @@
 :root {
   --myBlue: rgb(74, 213, 255);
 }
+::selection{
+  background-color: var(--myBlue);
+  color: white;
+}
 .container {
   display: flex;
   flex-direction: column;

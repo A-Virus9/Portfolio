@@ -1,7 +1,6 @@
 import profile from "../Data/Akshat-Vyas-Resume.pdf";
 import Akshat from "../Data/Akshat.png"
 import "../Styles/Home.css"
-// import Contact from "../Scripts/Contact"
 
 function Contact() {
   const platforms = [
