@@ -22,7 +22,7 @@
   /* border: 0.2rem solid white; */
 }
 .home-hi {
-  font-size: 4rem;
+  font-size: 4.5rem;
   color: var(--myBlue);
 }
 .home-brief {
@@ -35,11 +35,11 @@
   background: var(--myBlue);
   border-radius: 0.5rem;
   color: white;
-  text-shadow: 0.1rem 0 0 black;
-  font-size: 1.3rem;
+  /* text-shadow: 0.15rem 0 0 black; */
+  font-size: 1.5rem;
   font-weight: 800;
-  width: 15rem;
-  height: 3rem;
+  width: 13rem;
+  height: 4rem;
 }
 .resume:hover {
   scale: 1.02;
@@ -49,4 +49,35 @@
 }
 #resumeA {
   text-decoration: none;
+  align-self: center;
+}
+.contact {
+  /* border: 2px solid white; */
+  width: 100%;
+  padding: 0 3rem;
+  /* padding: 5rem 1rem; */
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.link{
+  font-size: 2.5rem;
+  display: flex;
+  margin: 0 3rem;
+  /* margin: 3rem; */
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.link-arrow{
+  color: white;
+  font-size: 4rem
+}
+.link-text{
+  color: var(--myBlue);
+}
+.contact-icons{
+  width: 4rem
 }

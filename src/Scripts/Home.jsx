@@ -1,4 +1,9 @@
-export default function Contact() {
+import profile from "../Data/Akshat-Vyas-Resume.pdf";
+import Akshat from "../Data/Akshat.png"
+import "../Styles/Home.css"
+// import Contact from "../Scripts/Contact"
+
+function Contact() {
   const platforms = [
     {
       platform: "LinkedIn",
@@ -82,7 +87,7 @@ export default function Contact() {
           ></path>
         </svg>
       ),
-      link: ""
+      link: "",
     },
   ];
 
@@ -102,3 +107,24 @@ export default function Contact() {
     </div>
   );
 }
+
+
+export default function Home() {
+    return (
+      <section className="home">
+        <img src={Akshat} alt="Poster" />
+        <div className="home-info">
+          <div className="home-hi">Hi! I am Akshat Vyas...</div>
+          <div className="home-brief">
+            -I am a Web Developer Currently Pursuing B.Tech in Computer Science at
+            Kalinga Institute of Industrial Technology (KIIT) and I am always
+            willing to learn new things.
+          </div>
+          <a href={profile} download="Akshat-Vyas-Resume" id="resumeA">
+            <button className="resume">Download CV</button>
+          </a>
+        </div>
+        <Contact />
+      </section>
+    );
+  }

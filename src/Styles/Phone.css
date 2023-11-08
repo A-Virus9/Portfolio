@@ -34,7 +34,6 @@
   align-items: center;
   justify-content: center;
   gap: 5rem;
-  padding: 0 4rem;
   box-sizing: border-box;
 }
 @media screen and (max-width: 560px){
@@ -44,17 +43,10 @@
   .phone{
     display: inline;
   }
-  .home-info{
-    margin-bottom: 20rem;
-  }
   .resume{
     width: 16rem;
     height: 7rem;
     font-size: 2rem;
     margin-top: 3rem;
-  }
-  .gmail{
-    position: relative;
-    top: 2rem;
   }
 }
