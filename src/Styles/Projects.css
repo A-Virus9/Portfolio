@@ -11,6 +11,7 @@
 .project-tab-header{
     font-size: 4rem;
     font-weight: 800;
+    margin-bottom: 4rem
 }
 .projects-container{
     display: flex;
@@ -39,7 +40,8 @@
     color: var(--myBlue);
 }
 .project-description{
-    font-size: 2rem
+    font-size: 2rem;
+    line-height: 2.5rem;
 }
 .project-tech-stack{
     font-size: 2rem;

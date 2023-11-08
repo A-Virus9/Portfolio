@@ -4,7 +4,7 @@ export default function Nav({ page, setPage }) {
   const [ham, setHam] = useState(false);
 
   function List({ screen, page, setPage }) {
-    const pages = ["Home", "About", "Projects"];
+    const pages = ["Home", "Projects", "About"];
 
     return (
       <ul className={`${screen}Menu list`}>
