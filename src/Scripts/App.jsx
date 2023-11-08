@@ -18,9 +18,7 @@ export default function App() {
       <Nav page={page} setPage={setPage} />
       {page === "Home" && <Home />}
       {page === "About"  && <About />}
-      {page === "Projects" && 
-      <Projects />
-      }
+      {page === "Projects" && <Projects />}
     </div>
   );
 }
