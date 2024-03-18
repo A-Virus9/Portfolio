@@ -23,6 +23,20 @@ const projects = [
     github_link: "https://github.com/A-Virus9/PIxelColorApp"
   },
   {
+    name: "Natours",
+    description: "Tours/Travels website with advanced CSS and SASS",
+    tech_stack: "SASS",
+    link: "https://a-virus9.github.io/Vanilla-Web/Natours/index.html",
+    github_link: "https://github.com/A-Virus9/Vanilla-Web/tree/main/Natours"
+  },
+  {
+    name: "Guess Game",
+    description: "Simple guessing game with JS",
+    tech_stack: "JS",
+    link: "https://a-virus9.github.io/Vanilla-Web/Guess%20Game/index.html",
+    github_link: "https://github.com/A-Virus9/Vanilla-Web/tree/main/Guess%20Game"
+  },
+  {
     name: "Linkedin Clone",
     description: "Clone of the login page of the social media platform LinkedIn",
     tech_stack: "CSS",
