@@ -2,6 +2,13 @@ import "../Styles/Projects.css";
 
 const projects = [
   {
+    name: "Mapify",
+    description: "Daily workout logger/tracker with leaflet",
+    tech_stack: "JS leaflet.js",
+    link: "https://a-virus9.github.io/Vanilla-Web/Mapify/index.html",
+    github_link: "https://github.com/A-Virus9/Vanilla-Web/tree/main/Mapify"
+  },
+  {
     name: "TIC-TAC-TOE",
     description: "Implementation of the Game Tic-Tac-Toe",
     tech_stack: "JS",
